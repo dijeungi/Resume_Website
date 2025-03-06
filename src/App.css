@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 70rem;
+}
+
+.App_Header {
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header_Left {
+    font-size: 24px;
+}
+
+.Left_Sub {
+    color: #8e8e8e;
+    font-size: 16px;
+    padding: 0.3rem 0;
+}
+
+.Header_Right {
+}
+
+/* ===== App_Content ====== */
+.App_Content {
+    text-align: center;
+}
+
+.Content_Title {
+    font-size: 2rem;
+    font-weight: 200;
+}
