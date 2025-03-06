@@ -1,4 +1,5 @@
 import "./App.css";
+import Comment from "./components/comment";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
@@ -16,18 +17,23 @@ function App() {
                 <div className="Header_Right">
                     <div className="Right_Phone">연락처: 010-5357-7933</div>
                     <div className="Right_Email">이메일: junho_0211@naver.com</div>
+                    <GitHubIcon />
+                    <PhoneIphoneIcon />
+                    <AlternateEmailIcon />
                 </div>
             </div>
 
             {/* Container */}
             <div className="App_Content">
                 <div className="Content_Title">Introduce</div>
-                <hr />
+
                 <div className="Content_Photo">
                     <img src="" />
                 </div>
                 <div className="Content_Text"></div>
             </div>
+
+            <Comment />
         </>
     );
 }
